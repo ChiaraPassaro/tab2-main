@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="filter">
+            <input type="text" placeholder="Name Client">
+            <button>Filter</button>
+        </div>
+        <div class="add-client">
+            <button>Add Client</button>
+        </div>
+        <!-- <ul class="tag-list">
+            <li class="tag tag-active">search client</li>
+            <li class="tag">filters</li>
+            <li class="tag">NEW CLIENT</li>
+        </ul> -->
+        <ul class="header-list">
+            <li class="header-item">client title</li>
+            <li class="header-item">country</li>
+            <li class="header-item">contact</li>
+            <li class="header-item">email</li>
+            <li class="header-item">status</li>
+            <li class="header-item date">activation date</li>
+            <li class="header-item balance">balance</li>
+            <li class="header-item">actions</li>
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/netflix.png" alt="">
+            </li>
+            <li class="client-data-item">netflix uk</li>
+            <li class="client-data-item">united kingdom</li>
+            <li class="client-data-item">maddax blackmore</li>
+            <li class="client-data-item">mblackmore@netflix.com</li>
+            <li class="client-data-item">activated</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance">1500000 GBP</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/hbo3.jpg" alt="">
+            </li>
+            <li class="client-data-item">HBO GO</li>
+            <li class="client-data-item">spain</li>
+            <li class="client-data-item">leonard barker</li>
+            <li class="client-data-item">leonardo.barker@hbo.com</li>
+            <li class="client-data-item">pending</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance">000 EUR</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/glovo1.jpg" alt="">
+            </li>
+            <li class="client-data-item">glovo ua</li>
+            <li class="client-data-item">ukraine</li>
+            <li class="client-data-item">wallance lambert</li>
+            <li class="client-data-item">eugene.smith@glovo.com</li>
+            <li class="client-data-item">blocked</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance balance-zero">000 PLN</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/dhl.jpg" alt="">
+            </li>
+            <li class="client-data-item">dhl parcel</li>
+            <li class="client-data-item">poland</li>
+            <li class="client-data-item">khadeeja daniels</li>
+            <li class="client-data-item">kovalski.daniel@dhl.com</li>
+            <li class="client-data-item">deactiveted</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance balance-zero">000 PLN</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/disney.jpg" alt="">
+            </li>
+            <li class="client-data-item">disney uk</li>
+            <li class="client-data-item">united kingdom</li>
+            <li class="client-data-item">maddax blackmore</li>
+            <li class="client-data-item">wallan.lambert@disney.com</li>
+            <li class="client-data-item">activeted</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance">1000000 GBP</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+        </ul>
+        <ul class="client-data">
+            <li class="client-data-item">
+                <img src="./css/spotify.png" alt="">
+            </li>
+            <li class="client-data-item">spotify pl</li>
+            <li class="client-data-item">poland</li>
+            <li class="client-data-item">maddax blackmore</li>
+            <li class="client-data-item">michal.bialy@spotify.com</li>
+            <li class="client-data-item">activeted</li>
+            <li class="client-data-item date">11 marzo 2021 9:37 AM</li>
+            <li class="client-data-item balance">500000 GBP</li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-trash"></i></button>
+            </li>
+            <li class="client-data-item action">
+                <button><i class="fa-solid fa-pen"></i></button>
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
